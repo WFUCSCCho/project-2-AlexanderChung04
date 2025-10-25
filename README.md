@@ -93,10 +93,13 @@ I got a little confused on how System.nanoTime works so I used the prompt, “ho
 
 
 BST vs. AVL Tree running time (insertion):
-(insert here)
+
+<img width="752" height="467" alt="g1" src="https://github.com/user-attachments/assets/722c9ed7-8358-4286-b89a-34dcf13b7d06" />
+
 
 BST vs. AVL Tree running time (search):
-(insert here)
+
+
 
 BST vs. AVL Tree running rate (insertion):
 (insert here)
