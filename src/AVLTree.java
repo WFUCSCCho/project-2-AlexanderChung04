@@ -14,7 +14,12 @@
 // void printTree( )      --> Print tree in sorted order
 // ******************ERRORS********************************
 // Throws UnderflowException as appropriate
-
+/*
+        ∗ @file: AVLTree.java
+∗ @description: This program implements remove, insert, findMin, findMax, contains, balance, printTree, rotateWithLeftChild, rotateWithRightChild, doubleWithLeftChild, doubleWithRightChild methods
+        ∗ @author: Alexander Chung
+∗ @date: October 26, 2025
+                                              */
 
 /**
  * Implements an AVL tree.
@@ -136,7 +141,7 @@ public class AVLTree<AnyType extends Comparable<? super AnyType>> {
 
     private static final int ALLOWED_IMBALANCE = 1;
 
-    // Assume t is either balanced or within one of being balanced
+    // Assume t is either balanced or within one of being balanced, re-balances tree to maintain AVL property
     private AvlNode<AnyType> balance( AvlNode<AnyType> t ) {
         // FINISH ME
         if(t == null){

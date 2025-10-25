@@ -1,3 +1,10 @@
+/*
+        ∗ @file: BST.java
+∗ @description: This program implements BST class implements comparable, implements iterator interface to traverse in ascending order, supports insert val/search val/remove val/print
+        ∗ @author: Alexander Chung
+∗ @date: October 26, 2025
+                                              */
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Stack;

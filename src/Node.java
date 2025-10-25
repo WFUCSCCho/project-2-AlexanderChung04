@@ -1,3 +1,10 @@
+/*
+        ∗ @file: Node.java
+∗ @description: This program implements node class with comparable interface, nodes for value/left/right, isLeaf and utility methods
+        ∗ @author: Alexander Chung
+∗ @date: October 26, 2025
+                                              */
+
 public class Node < T extends Comparable<T>>{
 
     private T value;

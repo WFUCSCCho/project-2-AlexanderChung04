@@ -1,3 +1,11 @@
+/*
+        ∗ @file: Proj2.java
+∗ @description: This program implements rest of main method to create an arraylist of data, then making two arraylists for sorted and randomized, BST and AVL trees for sorted and randomized, measures time to insert and search for each kind, prints results to screen and output.txt
+        ∗ @author: Alexander Chung
+∗ @date: October 26, 2025
+                                              */
+
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,3 +1,10 @@
+/*
+        ∗ @file: Ramen.java
+∗ @description: This program implements ramen class with comparable interface, initializes points for each piece of data, implements equals/compareto/get/toString methods
+        ∗ @author: Alexander Chung
+∗ @date: October 26, 2025
+                                              */
+
 public class Ramen implements Comparable<Ramen> {
     private int reviewNum;
     private String brand;
