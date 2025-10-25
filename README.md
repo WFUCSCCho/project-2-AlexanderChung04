@@ -66,6 +66,32 @@ Run your program several times for different number of lines of your dataset, N,
 
 Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot the running time (in seconds) and rate (in seconds per node) vs. N for each case, comparing the BST and AVL Trees (i.e., two lines per graph). Take a screenshot of your graph and put them here by modifying this file, committing, and pushing it to this repository.
 
+Dataset from kaggle, Delete top 10 since it is different years, deleted last two empty lines of dataset, changed the three ramens with no rating to a 0 rating, deleted “,” from ramen variety
+
+AI Documentation: 
+
+I began to implement private AvlNode remove, but got stuck so I asked DeepSeek. I gave it a prompt with my half finished code. It was quite useful here for creating and helping me understand the code I was missing. 
+
+<img width="832" height="528" alt="prompt 1" src="https://github.com/user-attachments/assets/070c81a8-2052-438c-a5d8-a084fb71f88a" />
+<img width="651" height="687" alt="answer 1" src="https://github.com/user-attachments/assets/6cbad7a9-d8f8-4972-9169-77470fd3062e" />
+
+It used a ? at the end which I didn’t understand so I asked it to explain. Also useful here and provided me with an alternate version that was easier to understand.
+
+<img width="615" height="622" alt="1 add" src="https://github.com/user-attachments/assets/6d29bdfc-2bb0-4d85-8607-e12e1024f3f5" />
+
+I wanted a good idea for how to structure the contains code, so I asked “can you provide me with a general outline for the contains method of an AVL tree in Java.” Was somewhat helpful along with a google search
+
+<img width="507" height="622" alt="contains" src="https://github.com/user-attachments/assets/05df780c-3838-4be5-89fe-8387e14964cb" />
+
+I was a little confused on if the BST vs AVL graphs were supposed to use data from the sorted or randomized trees so I pasted the instructions into the prompt, and asked “just to clarify are the graphs supposed to be for the sorted or randomized trees?” The explanation was quite useful here, helping me understand the outputs and graphs.
+
+<img width="500" height="756" alt="222poo" src="https://github.com/user-attachments/assets/805e6868-143d-4abd-b590-83d87a440365" />
+
+I got a little confused on how System.nanoTime works so I used the prompt, “how is system.nanotime used in java, and how might it be used with the instructions I sent you?” Wasn’t exactly what I was looking for so I googled to see what it actually returns.
+
+<img width="505" height="782" alt="nano" src="https://github.com/user-attachments/assets/79277efc-eb86-4bf1-8ed1-5f94f8ededa6" />
+
+
 BST vs. AVL Tree running time (insertion):
 (insert here)
 
@@ -77,6 +103,7 @@ BST vs. AVL Tree running rate (insertion):
 
 BST vs. AVL Tree running rate (search):
 (insert here)
+
 
 ## Submission:
 
